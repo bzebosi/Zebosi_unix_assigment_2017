@@ -211,8 +211,30 @@ further final_files subdivided into teosinte,maize,unknown,multiple
 teosinte has the file SNPs for each chromosome in teosite, maize has the file SNPs for each chromosome in maize, unknown files for unknown positions for maize and teosite, multiple has files with multiple snp positions. 
   
 
+**upload brian_zebosi_unix_assignment to git repository**
+- git cloned the repository
+```
+$git clone https://github.com/bzebosi/bzebosi_unix_assigment
 
+```
+-moved the directory brian_zebosi_unix_assignment to cloned repository bzebosi_unix_assigment
 
+```
+$mv brian_zebosi_unix_assignment bzebosi_unix_assigment
+```
+-staged the bzebosi_unix_assigment repository 
+
+```
+$git add brian_zebosi_unix_assignment
+```
+- Commited the file to the local repository
+```
+$git commit -m "initial commit (brian_zebosi_unix_assignment)"
+```
+
+```
+$git push origin master
+```
 
 
 
